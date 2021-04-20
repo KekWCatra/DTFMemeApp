@@ -36,7 +36,7 @@ let popupListOfPasta = `
 			</div>
 			<div class="popup__container__window__tpl" style="overflow: auto;">
 				<div class="popup__content">
-					<h4 style="color:#fff;display: inline-block;text-decoration: underline;cursor:pointer;" id="showPasta">Список паст</h4><h4 style="color:#fff;display: inline-block;">&nbsp;&nbsp;|&nbsp;&nbsp;</h4><h4 style="cursor:pointer;color:#fff;display: inline-block;text-decoration: underline;" id="showMeme">Мемы</h4>
+					<h4 style="color:#fff;display: inline-block;text-decoration: underline;cursor:pointer;" id="showPasta">Пасты</h4><h4 style="color:#fff;display: inline-block;">&nbsp;&nbsp;|&nbsp;&nbsp;</h4><h4 style="cursor:pointer;color:#fff;display: inline-block;text-decoration: underline;" id="showMeme">Мемы</h4>
                     <div style="float: right;display: inline-block;margin-left: 20px;width: 550px;"><input type="text" autocomplete="off" id="searchPasta" maxlength="250" style="height: 28px;padding: 3px 16px;font-size: 13px;line-height: 1.5384616;background-color: transparent;background-image: none;border: 1px solid #ddd;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;padding-left: 0;padding-right: 0;border-width: 1px 0;border-color: transparent;border-bottom-color: #ddd;border-radius: 0;box-shadow: none;max-width: 550px;width: 100%;color: #fff;outline: 0;"></div>
                     <div class="listStyleSex" id="pastaOlList">
                         <ol style="color:#fff;">
