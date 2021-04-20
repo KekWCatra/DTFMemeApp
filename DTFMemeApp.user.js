@@ -17,9 +17,9 @@ let body = document.body || document.getElementsByTagName('body')[0];
 let DocStyle = document.createElement('style');
 
 let colorText = '#000';
+cssPasta += `.popup__container__window--styled .popup__container__window__tpl {background: #1C1C1C;}`;
 if (body.classList.contains('s42-is-dark')) {
     colorText = '#fff';
-    cssPasta += `.popup__container__window--styled .popup__container__window__tpl {background: #1C1C1C;}`;
 }
 cssPasta += '.listStyleSex ol li {color: ' + colorText + ';} .listStyleSex ol li p {color: ' + colorText + ';}';
 
